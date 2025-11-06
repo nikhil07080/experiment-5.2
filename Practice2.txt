@@ -1,0 +1,6 @@
+db.demo.insertMany([
+  { "name": "Alice Johnson", "age": 20, "course": "Computer Science" },
+  { "name": "Bob Smith", "age": 22, "course": "Mathematics" },
+  { "name": "Charlie Lee", "age": 21, "course": "Physics" }
+]);
+db.demo.find({});
